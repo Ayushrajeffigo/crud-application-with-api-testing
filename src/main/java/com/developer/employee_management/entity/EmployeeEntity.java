@@ -29,6 +29,10 @@ public class EmployeeEntity {
 		this.dateofbirth = dateofbirth;
 		this.address = address;
 	}
+	public EmployeeEntity()
+	{
+		
+	}
 	public long getId() {
 		return id;
 	}
